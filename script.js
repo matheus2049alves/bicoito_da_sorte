@@ -22,11 +22,11 @@ const cookiePhrases = [
 
 buttonReset.addEventListener('click', () => {
   toggleScreen();
-  const randomNumber = Math.round(Math.random() * 14)
-  selectedPhrase.innerText = cookiePhrases[randomNumber]
 })
 
 cookieButton.addEventListener('click', () => {
+  const randomNumber = Math.round(Math.random() * 14)
+  selectedPhrase.innerText = cookiePhrases[randomNumber]
   toggleScreen();
 })
 
